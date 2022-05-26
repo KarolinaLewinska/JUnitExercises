@@ -81,7 +81,7 @@ public class ShoppingCartTests {
         shoppingCart.removeItem(p1);
 
         //then
-        assertEquals(0,shoppingCart.getItemCount());
+        assertEquals(0, shoppingCart.getItemCount());
     }
 
     @Test
