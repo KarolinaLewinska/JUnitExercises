@@ -34,11 +34,11 @@ public class TemperatureConverter {
     }
 
     public double getTemperatureInFahrenheit() {
-        return this.celsiusTemperature * 33.8;
+        return Math.round(this.celsiusTemperature * 33.8 * 10.0)/10.0;
     }
 
     public double getTemperatureInKelvin() {
-        return this.celsiusTemperature * 274.15;
+        return Math.round(this.celsiusTemperature * 274.15 * 10.0)/10.0;
     }
 
     public double decreaseTemperature(double degreesValue) {
